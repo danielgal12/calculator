@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th>
+                מספר 
+            </th>
+            <th>
+
+            </th>
+            <th>
+                מספר שני
+            </th>
+            <th>
+
+            </th>
+            <th>
+                תוצאה
+            </th>
+            <th>
+                בדיקה
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="calc1" disabled />
+            </td>
+            <td>
+                +
+            </td>
+            <td>
+                <input type="text" size="20" id="calc2" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="calc3" />
+            </td>
+            <td>
+                <span id="msgPlus1"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="calc1b" disabled />
+            </td>
+            <td>
+                -
+            </td>
+            <td>
+                <input type="text" size="20" id="calc2b" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="calc3b" />
+            </td>
+            <td>
+                <span id="msgPlus2"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="calc1c" disabled />
+            </td>
+            <td>
+                *
+            </td>
+            <td>
+                <input type="text" size="20" id="calc2c" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="calc3c" />
+            </td>
+            <td>
+                <span id="msgPlus3"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="calc1d" disabled />
+            </td>
+            <td>
+                /
+            </td>
+            <td>
+                <input type="text" size="20" id="calc2d" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="calc3d" />
+            </td>
+            <td>
+                <span id="msgPlus4"> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="calc1e" disabled />
+            </td>
+            <td>
+                %
+            </td>
+            <td>
+                <input type="text" size="20" id="calc2e" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="calc3e" />
+            </td>
+            <td>
+                <span id="msgPlus5"></span>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="100%" align="center">
+                <input type="button" value=" בדוק " onclick="checkAnswer();" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="100%" align="right">
+                <input type="button" value=" הגרל מספרים חדשים " onclick="reroll();" />
+            </td>
+        </tr>
+
+    </table>
+
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+﻿body {
+}
+
+table, tr, th {
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border-style: solid;
+    background-color: dimgray;
+}
